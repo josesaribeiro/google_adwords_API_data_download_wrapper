@@ -17,7 +17,7 @@ if __name__ == '__main__':
     end_date  = sys.argv[4];
     destination_file_path = sys.argv[5];
     
-    adwords = APIGoogleAdwords(google_ads_yaml_path="googleads.yaml");
+    adwords = GoogleAdwordsAPiDataDownloader(google_ads_yaml_path="googleads.yaml");
 
     adwords.download_adwords_report(report_name=report_name,
         fields=data_fields,start_date=start_date,end_date=end_date, 

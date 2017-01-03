@@ -5,4 +5,5 @@ Its designed to be used in 2 steps:
   if no parameter is sent, it uses the default location(user home directory) 
 - Call download_adwords_report senting the parameters : report_name, fields, start_date, end_date, destination_file_path,zip_file
 
+The definition of all avaliable data can be found at: https://developers.google.com/adwords/api/docs/appendix/reports
 See data_download_example.py as an example of how to use this wrapper.
